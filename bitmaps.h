@@ -44,9 +44,12 @@ extern const uint8_t BITMAP_ScanList2[6];
 
 extern const uint8_t BITMAP_compand[6];
 
+#ifndef ENABLE_CUSTOM_MENU_LAYOUT
+	extern const uint8_t BITMAP_CurrentIndicator[8];
 #endif
 
 #ifdef ENABLE_MESSENGER
 	extern const uint8_t BITMAP_NEWMSG[8];
 #endif
 
+#endif

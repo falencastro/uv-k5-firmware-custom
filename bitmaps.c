@@ -336,3 +336,16 @@ const uint8_t BITMAP_NEWMSG[8] =
 	0b01111110,
 };
 #endif
+
+#ifndef ENABLE_CUSTOM_MENU_LAYOUT
+const uint8_t BITMAP_CurrentIndicator[8] = {
+	0xFF,
+	0xFF,
+	0x7E,
+	0x7E,
+	0x3C,
+	0x3C,
+	0x18,
+	0x18
+};
+#endif
